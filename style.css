@@ -3,9 +3,9 @@
 
   --2: linear-gradient(190deg, #1b5050 25%, #131313 75%);
 
-  --3: linear-gradient(190deg, #ffffff 25%, #ffe600 75%);
+  --3: linear-gradient(190deg, #660222 25%, #b7185a 75%);
 
-  --4: linear-gradient(120deg, #1100ff 50%, #d10023 10%);
+  --4: linear-gradient(120deg, #439eff 50%, #b7185a 10%);
 }
 
 body {
@@ -29,7 +29,7 @@ body {
     background-size: 200%;
     animation: identifier 5s infinite alternate;
     box-shadow: 7px 8px 5px #0000002d, -7px -8px 5px #35353554, inset 3px 3px 5px #35353554, inset -3px -3px 5px #0000002d;
-    border: 4px solid #1100ff !important ;
+    border: 4px solid #439eff !important ;
   }
 
   @keyframes identifier {
@@ -45,6 +45,12 @@ body {
   img.dots {
     margin-left: -5%;
     margin-top: -5%;
+  }
+
+  img.juan-do {
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
   }
 
   .insets {
@@ -111,8 +117,8 @@ body {
   }
 
   button.btn-chek {
-    border: 2px solid #660202 !important;
-    color: #660202 !important;
+    border: 2px solid #ffd000 !important;
+    color: #ffd000 !important;
     font-weight: 650;
     font-size: 0.9em;
     margin-left: 10%;
@@ -140,12 +146,12 @@ body {
     }
 
     50% {
-      box-shadow: -1.5px -1.5px 8px #ffd000, 1.5px 1.5px 8px #ffd000;
+      box-shadow: -1.2px -1.2px 6px #ffd000, 1.2px 1.2px 6px #ffd000;
     }
 
     100% {
       background-position: left;
-      box-shadow: -1px -1px 2px #ffd000, 1px 1px 2px #ffd000;
+      box-shadow: -1px -1px 4px #ffd000, 1px 1px 4px #ffd000;
     }
   }
 
@@ -191,7 +197,13 @@ body {
     background-size: 200%;
     animation: identifier 5s infinite alternate;
     box-shadow: 5px 6px 5px #0000002d, -5px -6px 5px #35353554, inset 2px 2px 5px #35353554, inset -2px -2px 5px #0000002d;
-    border: 4px solid #1100ff !important ;
+    border: 4px solid #439eff !important ;
+  }
+
+  img.juan-do {
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
   }
 
   img.dots {
@@ -275,8 +287,8 @@ body {
   }
 
   button.btn-chek {
-    border: 2px solid #660202 !important;
-    color: #660202 !important;
+    border: 2px solid #ffd000 !important;
+    color: #ffd000 !important;
     font-weight: 650;
     font-size: 0.9em;
     margin-left: 11%;
@@ -307,12 +319,12 @@ body {
     }
 
     50% {
-      box-shadow: -1.5px -1.5px 8px #ffd000, 1.5px 1.5px 8px #ffd000;
+      box-shadow: -1.2px -1.2px 6px #ffd000, 1.2px 1.2px 6px #ffd000;
     }
 
     100% {
       background-position: left;
-      box-shadow: -1px -1px 2px #ffd000, 1px 1px 2px #ffd000;
+      box-shadow: -1px -1px 4px #ffd000, 1px 1px 4px #ffd000;
     }
   }
 
@@ -359,7 +371,7 @@ body {
     background-size: 200%;
     animation: identifier 5s infinite alternate;
     box-shadow: 3px 4px 5pxpx #00000054, -3px -4px 5px #3535352d, inset 2px 2px 5px #3535352d, inset -2px -2px 5px #00000054;
-    border: 4px solid #1100ff !important ;
+    border: 4px solid #439eff !important ;
   }
 
   @keyframes identifier {
@@ -377,6 +389,12 @@ body {
     margin-top: -5%;
   }
 
+  img.juan-do {
+    width: 125px;
+    height: 125px;
+    border-radius: 250px;
+  }
+
   .insets {
     margin-top: -30% !important;
   }
@@ -384,6 +402,7 @@ body {
   .image {
     text-align: center;
     margin-left: -40%;
+    margin-top: -5%;
   }
 
   .heading {
@@ -410,6 +429,7 @@ body {
 
   .icons {
     text-align: center;
+    margin-bottom: 2.5%;
   }
 
   a.icon {
@@ -426,13 +446,6 @@ body {
     color: #fff3e3;
   }
 
-  hr.garis {
-    color: rgb(0, 0, 0);
-    opacity: 100%;
-    margin-left: -2%;
-    margin-right: 39%;
-  }
-
   p.descript {
     color: #ffd000;
     font-size: 0.65em;
@@ -440,17 +453,19 @@ body {
     text-align: center;
     margin-left: -38%;
     text-transform: uppercase;
+    margin-top: -1%;
   }
 
   button.btn-chek {
-    border: 2px solid #660202 !important;
-    color: #660202 !important;
+    border: 2px solid #ffd000 !important;
+    color: #ffd000 !important;
     font-weight: 650;
     font-size: 0.9em;
     margin-left: 9%;
     padding-left: 6%;
     padding-right: 10%;
     transition: 0.3s;
+    margin-top: -2%;
   }
 
   button.btn-chek:hover {
@@ -482,7 +497,7 @@ body {
   }
 
   footer.copyright {
-    margin-top: 4%;
+    margin-top: 5%;
     margin-left: -3%;
     margin-right: -3%;
     border-radius: 0 0 10px 10px;
@@ -497,7 +512,7 @@ body {
     background: var(--3);
     background-size: 200%;
     background-clip: text;
-    font-weight: 600;
+    font-weight: 700;
     -webkit-background-clip: text;
     color: transparent;
     font-size: 0.5em;
